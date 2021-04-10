@@ -1,0 +1,574 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+}
+
+nav{
+    background-image: url("file:///C:/Users/DELL/loopstudios-landing-page-main/images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100vw;
+    width: 100%;
+    height: 95vh;
+}
+
+.loneParagraph{
+    display: none;
+}
+nav > .navHeader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+nav > .navHeader > header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 160px;
+    color: #fff;
+}
+
+nav > .navHeader > .navLinks{
+    padding: 65px;
+}
+
+nav > .navHeader .navLinks > a{
+    padding: 1.25rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.display{
+    display: none;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 200;
+    border: 1px solid #fff;
+    width: 11em;
+    margin: 3em;
+    margin-top: 2em;
+    padding: 40px;
+} 
+
+
+.icons{
+    display: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5rem;
+    margin-left: 5.625rem;
+} 
+
+.content > div.mainContent{
+    border: 1px solid #fff;
+    background: #fff;
+    width: 42.5rem;
+    height: 21.875rem;
+    position: relative;
+    top: 11.875rem; right: 16.875rem;
+}
+
+h2{
+    padding: 50px 0 0 80px;
+    margin-bottom: 10px;
+    color: rgb(22, 21, 21);
+    font-size: 3rem;
+    word-spacing: 7px;
+    line-height: 3;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+p{
+    padding: 0 0 40px 80px;
+    color: rgb(77, 74, 74);
+}
+
+section.section2{
+    margin-top: 7rem;
+    margin-left: 3.5rem;
+}
+
+.secondSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secondSection > h3{
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 5.125vw;
+    text-transform: uppercase;
+}
+
+.secondSection > p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-right: 7vw
+}
+
+.secondSection > p a{
+   text-decoration: none;
+   border: 1px solid black;
+   padding: 10px 25px 10px 25px;
+   color: #000;
+}
+
+
+section.section3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    row-gap: 30px;
+    margin-left: 7vw;
+    margin-right: 8vw;
+    margin-bottom: 10vh;
+}
+
+ section.section3 > div > figure{
+    height: 400px;
+    position: relative;
+}
+
+.secondImage{
+    display: none;
+}
+
+
+section.section3 > div > figure > figcaption{
+    position: relative;
+    bottom: 2.875rem; left: .875rem;
+    color: #fff;
+}
+
+section > footer{
+    background: #000;
+    width: 100vw;
+    position: -webkit-sticky;
+    height: 30vh;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85px;
+}
+
+h5{
+    display: inline;
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 7rem;
+}
+
+.section4 > footer > div > span.span{
+    margin-top: 4rem;
+    margin-right: 5rem;
+}
+
+.section4 > footer > div > span > a{
+    padding-right: 1.2rem;
+}
+
+
+footer > .div2 > span.span1{
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+footer > .div2 > span.span1 > a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+footer > .div2 > span.span2{
+    color: rgb(184, 181, 181);
+    margin-top: 2rem;
+    margin-right: 6rem;
+    margin-bottom: 6rem;
+}
+
+.spana{
+    display: none;
+}
+
+
+@media(max-width: 994px){
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 7.5rem;
+    }
+    
+    .content > div.mainContent{
+        border: 1px solid #fff;
+        text-align: center;
+        background: #fff;
+        width: 90vw;
+        margin-left: -20px;
+        height: 8.875rem;
+        position: static;
+    }
+    
+    h2{
+        padding: 10px 20px 0 0;
+        margin-bottom: 10px;
+        color: rgb(22, 21, 21);
+        font-size: 50px;
+        font-weight: 100;
+        text-transform: uppercase;
+        line-height: 45px;
+    }
+    
+    p{
+        padding: 10px 0 40px 0;
+        color: rgb(77, 74, 74);
+    }
+    
+    /* section.section2{
+        margin-top: -80px;
+        display: flex;
+        justify-content: center;
+    } */
+
+}
+
+@media(max-width: 890px){
+    nav > .navHeader > .navLinks{
+        display: none;
+    }
+
+    .nav{
+        background: #000;
+    }
+
+    nav > .navHeader > header{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-left: 10px;
+        color: #fff;
+    }
+
+    .navLinks1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+
+    .navLinks1 > a{
+        padding-top: 40px;
+        font-size: 24px;
+        font-weight: 200;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    h1{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 50px;
+        font-weight: 200;
+        border: 2px solid #fff;
+        width: 10em;
+        margin: 3em;
+        margin-top: 2em;
+        padding: 40px;
+    } 
+
+    .display{
+        display: none;
+    }
+
+    .icons{
+        display: inline;
+    }
+
+    nav > .navHeader > .icons{
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+
+    .active{
+        display: inline;
+    }
+    
+}
+
+
+
+@media (max-width: 792px), screen and (orientation: portrait) {
+    .content{
+        display: flex;
+        justify-content: center;
+        margin-top: 7.5rem;
+        margin-left: 0;
+    }
+
+    .mainContent{
+        margin-left: 10px !important;
+    }
+    
+    nav > .navHeader > .icons{
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+    h1{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 200;
+        border: 2px solid #fff;
+        width: 80vw;
+        margin-left: 0.5em;
+        margin-top: 4em;
+        padding: 40px;
+    } 
+
+       section.section2{
+        margin-top: -80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: -80px;
+    } 
+
+    .secondSection > p{
+        display: none;
+    }
+
+    .loneParagraph{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-right: 7vw;
+        margin-left: 8vw;
+    }
+
+    .loneParagraph > a{
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 10px 25px 10px 25px;
+        color: #000;
+    }
+
+}
+
+@media(max-width: 700px){
+    section.section3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    figure {
+        display: block;
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+        margin-inline-start: 0 !important;
+        margin-inline-end: 0 !important;
+    }
+    
+    section.section3{
+        margin-left: 4vw;
+        margin-right: 8vw;
+    }
+
+    h2{
+        margin-left: 7vw;
+    }
+
+    figure{
+        display: inline;
+    }
+    .secondImage{
+        display: flex;
+        width: 90vw;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .firstImage{
+        display: none;
+    }
+
+    section.section3{
+        margin-bottom: 0;
+    }
+
+    
+  section > footer{
+    background: #000;
+    width: 100vw;
+    height: 90vh;
+  }
+
+  footer > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+  }
+
+   h5{
+        color: #fff;
+        font-size: 2rem;
+        margin: 3rem auto;
+    }
+
+    .span1{
+        display: none;
+    }
+
+    .spana{
+        display: inline;
+    }
+
+    #span{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #span > a{
+        color: #fff;
+        text-decoration: none;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    #span2{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #span3{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+
+} 
+
+@media(max-width: 696px){
+    .section1 > .content > figure{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .section1 > .content > figure > img{
+        max-width: 30rem;
+        margin-left: 7vw;
+    } 
+    
+}
+
+@media(max-width: 600px){
+    .secondSection > h3{
+        margin-left: 6.9vw;
+    }
+}
+
+ @media (max-width: 562px), screen and (orientation: portrait){
+    .section1 > .content > figure > img{
+        max-width: 25rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw !important;
+    } 
+
+    h1{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 200;
+        border: 2px solid #fff;
+        width: 70vw;
+        min-width: 40vmin;
+        margin-left: 0.2em;
+        margin-top: 4em;
+        padding: 40px;
+    } 
+
+    .secondSection > h3{
+       font-size: 5vw;
+       margin-top: 20px;
+    }
+} 
+
+@media(max-width: 530px){
+    .secondSection > h3 {
+        margin-top: 22vw !important;
+        position: static;
+    }
+
+    p.para1{
+       margin-bottom: 20vw;
+    }
+}
+
+@media (max-width: 462px), screen and (orientation: portrait){
+    .section1 > .content > figure > img{
+        max-width: 18rem;
+        display: flex;
+        justify-content: center;
+        margin-left: .2vw !important;
+    } 
+
+    .secondSection > h3 {
+        margin-top: 22vw !important;
+        position: static;
+    }
+
+    p.para1{
+        margin-bottom: 20vw;
+     }
+
+     h2{
+        font-size: 10vw;
+    }
+}
+
+@media(max-width: 375px){
+    .secondSection > h3 {
+        margin-top: 22vw !important;
+        position: static;
+    }
+
+    h2{
+        font-size: 10vw;
+    }
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-bottom: -5px;
+}
+   
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
