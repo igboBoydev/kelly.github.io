@@ -62,5 +62,5 @@ When I finished this challenge I found out that I really need to put some more e
 ## Author
 
 - Website - No official portfolio website for now.
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/xtremeCode6022)
-- Twitter - [@yourusername](https://www.twitter.com/Xtreme_ng)
+- Frontend Mentor - [@xtremecode6022](https://www.frontendmentor.io/profile/xtremeCode6022)
+- Twitter - [@Xtreme_ng](https://www.twitter.com/Xtreme_ng)
